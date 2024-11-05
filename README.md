@@ -1,3 +1,5 @@
+You can access the application from : https://project-2024-440809.el.r.appspot.com/
+
 # notification-app
 
 ## Project setup
