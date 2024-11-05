@@ -1,0 +1,114 @@
+.maincontent {
+    margin: 2% 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10% 7% 10% 7%;
+    border-radius: 150px 0px;
+  }
+  
+  .welcome, .content {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .welcome {
+    text-align: center;
+  }
+  
+  .mainnavbar {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .navbar-light .navbar-nav .nav-link, .navbar-brand {
+    color: white !important; 
+  }
+  
+  .navbar-brand {
+    padding: 8px;
+  }
+  
+  .navbar-brand:hover, .nav-link:hover {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .notificationbar {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 8px;
+  }
+  
+  .notification-icon {
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .badge {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    top: -5px;
+    right: -10px;
+  }
+  
+  .latest-message {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.7);
+    top: 90%;
+    left: 30%;
+    font-size: small;
+    padding: 5px;
+    border-radius: 10px;
+    max-width: 150%;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    justify-content: left;
+    align-items: center;
+    text-overflow: ellipsis;
+  }
+  
+  .dropdown {
+    border-radius: 10px;
+    padding: 5px;
+    font-size: medium;
+    max-width: 90vw;
+  }
+  
+  .dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .dropdown li {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    margin: 0% 5%;
+  }
+  
+  .dropdown li:hover {
+    box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.7);
+  }
+  
+  .dropdown li:first-child {
+    border-radius: 20px 0px 0px 0px;
+    color: red;
+  }
+  
+  .dropdown li:last-child {
+    border-bottom: none; 
+    border-radius: 0px 0px 20px 0px;
+  }  
